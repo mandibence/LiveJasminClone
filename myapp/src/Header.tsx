@@ -96,8 +96,8 @@ export default function Header() {
                     onMouseUp={handleMouseUp2}
                     onMouseMove={handleMouseMove2}
                     onMouseLeave={handleMouseLeave2}>
-                    <div className="flex items-center justify-center h-12 ml-4 mt-4 mr-4 mb-1 bg-yellow-300 text-red-900">Sign Up FREE</div>
-                    <div className="flex items-center justify-center h-12 ml-4 mb-4 mr-4 bg-red-800 text-white">Login</div>
+                        <div className="flex items-center justify-center h-12 ml-4 mt-4 mr-4 mb-1 bg-yellow-300 text-red-900 font-semibold">Sign Up FREE</div>
+                        <div className="flex items-center justify-center h-12 ml-4 mb-4 mr-4 bg-red-800 text-white font-semibold">Login</div>
                         <div className="flex items-center text-white h-12 pl-4">Become a Pro</div>
                         <div className="flex items-center text-red-600 bg-red-300 h-12 pl-4">Live Cams</div>
                         <div className="flex items-center text-white h-12 pl-4">New Models</div>
@@ -166,6 +166,9 @@ export default function Header() {
                 <div className="flex items-center inline-block px-2 py-3 mt-2 mb-2 ml-1 mr-1 border rounded border-red-800 bg-red-800 text-stone-400">Lesbian</div>
                 <div className="flex items-center inline-block px-2 py-3 mt-2 mb-2 ml-1 mr-1 border rounded border-red-800 bg-red-800 text-stone-400">Couple</div>
                 <div className="flex items-center inline-block px-2 py-3 mt-2 mb-2 ml-1 mr-1 border rounded border-red-800 bg-red-800 text-stone-400">Gay</div>
+            </div>
+            <div className="flex items-center h-8 pl-3 bg-red-900 text-white ">
+                Live Sex Cams Enjoy the most popular cam girls...
             </div>
         </header >
     )
